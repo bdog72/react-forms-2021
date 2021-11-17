@@ -1,14 +1,10 @@
 //
 //
 
-import SimpleInput from './components/SimpleInput';
+import Counter from './components/Counter';
 
 function App() {
-  return (
-    <div className='app'>
-      <SimpleInput />
-    </div>
-  );
+  return <Counter />;
 }
 
 export default App;
